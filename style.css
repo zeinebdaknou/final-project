@@ -7,7 +7,7 @@ body {
 	font-size: 16px;
 }
 
-* {
+*{
 	box-sizing: border-box;
 }
 
@@ -28,7 +28,7 @@ h3 {
 }
 
 
-/*Styles for the dashboard*/
+
 
 .dashboard {
 	display: flex;
@@ -75,7 +75,6 @@ h3 {
 	float: right;
 }
 
-/*Styles for the difficulty select buttons*/
 
 #form {
 	display: flex;
@@ -107,7 +106,7 @@ label:nth-of-type(2) {
 	box-shadow: none;
 }
 
-/*Styles for the game board*/
+
 
 .container {
 	margin: 0 auto;
@@ -116,7 +115,7 @@ label:nth-of-type(2) {
 }
 
 .game-board {
-	/* gradiend credit uiGradients */
+	
 	background: #aa076b;  
 	background: -webkit-linear-gradient(to bottom, #61045f, #aa076b); 
 	background: linear-gradient(to bottom, #61045f, #aa076b); 
@@ -193,7 +192,6 @@ label:nth-of-type(2) {
 	transform: rotateY(-180deg);
 }
 
-/*Modal styles*/
 
 .modal {
 	display: block;
